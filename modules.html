@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ms">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Pilih modul pembelajaran Program Pegawai Perubatan Siswazah">
+  <title>Modul Pembelajaran PPS</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assessment.css">
+</head>
+<body class="module-index">
+  <header class="topbar">
+    <a class="brand" href="modules.html">
+      <span class="brand-mark">PPS</span>
+      <span><strong>PPS Scroll Learning</strong><small>Pusat modul pembelajaran</small></span>
+    </a>
+    <div class="top-actions">
+      <button class="language-button" id="language-toggle" type="button">EN</button>
+      <button class="icon-button" id="theme-toggle" type="button">Mod gelap</button>
+    </div>
+  </header>
+
+  <main class="module-main">
+    <section class="module-hero">
+      <p class="eyebrow">Pembelajaran dan rujukan semula</p>
+      <h1>Pilih perjalanan <em>pembelajaran PPS</em> anda</h1>
+      <p class="lead">Dua modul interaktif yang meringkaskan bahan pembentangan PPS untuk orientasi dan rujukan ketika bertugas.</p>
+      <p class="source-note">Laman pembelajaran bebas. Tidak berafiliasi dengan atau mewakili KKM, Bahagian Perkembangan Perubatan atau MPM. Rujuk arahan rasmi terkini semasa melaksanakan dasar.</p>
+    </section>
+
+    <section class="module-grid" aria-label="Senarai modul">
+      <a class="module-card original" href="index.html">
+        <span class="module-number">Modul 01</span>
+        <h2>Pengenalan Program PPS</h2>
+        <p>Struktur latihan, posting, tagging, waktu fleksi, CME, penilaian dan urusan selepas latihan.</p>
+        <div class="module-meta"><span>15 bahagian</span><span>Kuiz kefahaman</span></div>
+        <strong>Mulakan modul <span aria-hidden="true">→</span></strong>
+      </a>
+      <a class="module-card assessment" href="assessment.html">
+        <span class="module-number">Modul 02</span>
+        <h2>Panduan Penilaian Kompetensi PPS Baharu</h2>
+        <p>Format penilaian baharu melalui HRM Module dalam MPIS, daripada sesi penilaian hingga keputusan posting.</p>
+        <div class="module-meta"><span>14 bahagian</span><span>Aliran keputusan interaktif</span></div>
+        <strong>Mulakan modul <span aria-hidden="true">→</span></strong>
+      </a>
+    </section>
+  </main>
+
+  <footer class="module-footer"><span>Berdasarkan bahan pembentangan PPS yang dibekalkan.</span><span>Versi pembelajaran bebas.</span></footer>
+  <script src="assessment-i18n.js"></script>
+  <script>
+    const toggle=document.querySelector("#theme-toggle");
+    if(localStorage.getItem("pps-theme")==="dark") document.body.classList.add("dark");
+    toggle.addEventListener("click",()=>{
+      document.body.classList.toggle("dark");
+      localStorage.setItem("pps-theme",document.body.classList.contains("dark")?"dark":"light");
+      toggle.textContent=document.body.classList.contains("dark")?"Mod cerah":"Mod gelap";
+    });
+    initAssessmentLanguage();
+  </script>
+</body>
+</html>

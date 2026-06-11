@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="ms">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Panduan interaktif format penilaian kompetensi PPS baharu">
+  <title>Panduan Penilaian Kompetensi PPS Baharu</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assessment.css">
+</head>
+<body class="assessment-module">
+  <div class="progress-track" aria-hidden="true"><div id="scroll-progress"></div></div>
+  <header class="topbar">
+    <a class="brand" href="#mula"><span class="brand-mark">PPS</span><span><strong>Penilaian Kompetensi</strong><small>Modul pembelajaran baharu</small></span></a>
+    <div class="top-actions">
+      <a class="icon-button module-link" href="modules.html">Modul</a>
+      <a class="icon-button module-link" href="index.html">Pengenalan</a>
+      <button class="language-button" id="language-toggle" type="button">EN</button>
+      <button class="icon-button" id="glossary-open" type="button">Glosari</button>
+      <button class="icon-button" id="theme-toggle" type="button">Mod gelap</button>
+      <button class="icon-button" id="print-button" type="button">Cetak</button>
+      <button class="menu-button" id="menu-toggle" type="button" aria-expanded="false">Menu</button>
+    </div>
+  </header>
+
+  <aside class="side-nav" id="side-nav">
+    <div class="journey-label">Panduan anda <strong id="section-count">01 / 14</strong></div>
+    <nav>
+      <a href="#overview"><span>01</span>Gambaran keseluruhan</a>
+      <a href="#latar"><span>02</span>Latar belakang</a>
+      <a href="#lama-baharu"><span>03</span>Sistem lama & isu</a>
+      <a href="#reformasi"><span>04</span>Keperluan reformasi</a>
+      <a href="#prinsip"><span>05</span>Prinsip baharu</a>
+      <a href="#sesi"><span>06</span>Sesi penilaian</a>
+      <a href="#komponen"><span>07</span>Empat komponen</a>
+      <a href="#wajaran"><span>08</span>Wajaran markah</a>
+      <a href="#lulus"><span>09</span>Kriteria lulus</a>
+      <a href="#pelanjutan"><span>10</span>Pelanjutan</a>
+      <a href="#aliran"><span>11</span>Aliran keputusan</a>
+      <a href="#panduan"><span>12</span>Panduan komponen</a>
+      <a href="#global"><span>13</span>Global Assessment</a>
+      <a href="#semak"><span>14</span>Semak kefahaman</a>
+    </nav>
+  </aside>
+
+  <main id="mula">
+    <section class="hero assessment-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Modul 02 · HRM Module dalam MPIS</p>
+        <h1>Panduan Penilaian <em>Kompetensi PPS Baharu</em></h1>
+        <p class="lead">Rujukan praktikal untuk memahami komponen, wajaran, sesi penilaian dan keputusan posting dalam format penilaian baharu.</p>
+        <div class="hero-actions"><a class="button primary" href="#overview">Mulakan panduan</a><button class="button secondary" id="resume-button" type="button">Sambung bacaan</button></div>
+        <p class="source-note">Diringkaskan daripada “Taklimat Format Penilaian Kompetensi PPS Yang Baru melalui penggunaan HRM Module dalam MPIS”. Laman ini bukan arahan rasmi; rujuk dasar terkini dan pihak berkuasa berkaitan.</p>
+      </div>
+      <div class="assessment-orbit" aria-label="Empat komponen penilaian"><strong>4</strong><span>komponen</span><i>Case Log</i><i>CME</i><i>WBA</i><i>Global</i></div>
+    </section>
+
+    <section class="quick-start assessment-quick">
+      <div><span>01</span><strong>Fahami perubahan</strong><small>Isu lama dan prinsip baharu</small></div>
+      <div><span>02</span><strong>Kenali komponen</strong><small>Case Log, CME, WBA dan Global</small></div>
+      <div><span>03</span><strong>Jejak markah</strong><small>Sesi, wajaran dan syarat lulus</small></div>
+      <div><span>04</span><strong>Buat keputusan</strong><small>Lulus atau kategori pelanjutan</small></div>
+    </section>
+
+    <section class="learning-section" id="overview" data-index="1">
+      <div class="section-heading"><p class="kicker">01 · Overview</p><h2>Apa yang berubah?</h2><p>Penilaian dipindahkan kepada pendekatan digital, seragam, berwajaran dan berterusan melalui HRM Module dalam MPIS.</p></div>
+      <div class="stat-grid"><article class="metric"><strong>4</strong><span>komponen utama</span></article><article class="metric"><strong>2</strong><span>sesi asal setiap posting</span></article><article class="metric"><strong>60%</strong><span>markah minimum setiap sesi wajib</span></article><article class="metric"><strong>10</strong><span>hari Cuti Latihan setiap posting</span></article></div>
+      <div class="callout policy"><strong>Tujuan modul</strong><p>Membantu PPS, penyelia dan pentadbir memahami bagaimana bukti kerja klinikal, pembelajaran, penilaian tempat kerja dan prestasi keseluruhan dinilai.</p></div>
+    </section>
+
+    <section class="learning-section" id="latar" data-index="2">
+      <div class="section-heading"><p class="kicker">02 · Background timeline</p><h2>Daripada buku log kepada penilaian digital</h2><p>Pilih tahun untuk menonjolkan langkah perubahan dasar.</p></div>
+      <div class="history-timeline" id="history-timeline">
+        <button class="active" data-year="2007"><b>2007</b><span>Logbook baharu</span></button>
+        <button data-year="2012"><b>2012</b><span>Garis panduan</span></button>
+        <button data-year="2014"><b>2014</b><span>LNPT & pelanjutan</span></button>
+        <button data-year="2017"><b>2017</b><span>CCP & CCHT</span></button>
+        <button data-year="2020"><b>2020</b><span>Semakan IPK</span></button>
+        <button data-year="2021"><b>2021</b><span>Era COVID-19</span></button>
+        <button data-year="2022"><b>2022</b><span>Keputusan digital</span></button>
+      </div>
+      <article class="timeline-detail" id="timeline-detail"></article>
+    </section>
+
+    <section class="learning-section" id="lama-baharu" data-index="3">
+      <div class="section-heading"><p class="kicker">03 · Old system & challenges</p><h2>Mengapa sistem lama perlu dinilai semula?</h2></div>
+      <div class="compare-grid">
+        <article class="compare-card"><span>Sistem lama</span><h3>Tiga kelompok penilaian</h3><ul><li>Buku Log: prosedur, DOPS, CBD, Mini-CEX, MSF dan CME</li><li>Penilaian berterusan: pembentangan kes, wad round, sikap dan major concern</li><li>Penilaian akhir posting: Viva, MCQ, MEQ atau tiada penilaian</li></ul></article>
+        <article class="compare-card alt"><span>Format baharu</span><h3>Empat komponen berwajaran</h3><ul><li>Case Log Entry</li><li>CME</li><li>Workplace-Based Assessment</li><li>Global Assessment</li></ul></article>
+      </div>
+      <div class="issue-grid"><article><strong>Ketidakseragaman</strong><p>Kaedah antara posting dan hospital berbeza.</p></article><article><strong>“All or None Rule”</strong><p>Gagal satu komponen atau subkomponen membawa pelanjutan.</p></article><article><strong>Tidak telus</strong><p>PPS tidak sentiasa mengetahui keputusan dan tahap kompetensi.</p></article><article><strong>Kurang relevan</strong><p>Sesetengah prosedur kurang sesuai dengan keperluan semasa.</p></article><article><strong>Subjektif</strong><p>Tiada markah lulus objektif yang seragam.</p></article><article><strong>Buku fizikal</strong><p>Sukar dibawa, dilengkapkan dan diselenggara.</p></article></div>
+    </section>
+
+    <section class="learning-section" id="reformasi" data-index="4">
+      <div class="section-heading"><p class="kicker">04 · Why reform was needed</p><h2>Dapatan yang mendorong perubahan</h2><p>Semakan IPK 2020 melibatkan tujuh kohort PPS, dengan 5,708 peserta.</p></div>
+      <div class="reform-stats"><article><strong>95%</strong><span>menamatkan housemanship dalam kontrak tiga tahun</span></article><article><strong>52.2%</strong><span>prevalens pelanjutan, kira-kira 1 dalam 2 PPS</span></article><article><strong>32.9%</strong><span>prevalens rujukan tahun 2014, kira-kira 1 dalam 3 PPS</span></article></div>
+      <div class="callout review"><strong>Perlu semakan</strong><p>Slaid menonjolkan buku log tidak lengkap dan kelemahan pengetahuan sebagai sebab lazim. Pecahan terperinci dalam grafik asal perlu disahkan sebelum digunakan sebagai statistik rasmi.</p></div>
+      <div class="knowledge-check mini-check" data-answer="b"><h3>Semak kefahaman</h3><p>Apakah masalah teras yang cuba diselesaikan oleh format baharu?</p><button data-choice="a">Menghapuskan semua penilaian klinikal</button><button data-choice="b">Menjadikan penilaian lebih seragam, objektif dan telus</button><p class="feedback"></p></div>
+    </section>
+
+    <section class="learning-section" id="prinsip" data-index="5">
+      <div class="section-heading"><p class="kicker">05 · New assessment principles</p><h2>Prinsip yang membentuk format baharu</h2></div>
+      <div class="principle-grid"><article><b>Seragam</b><span>Digunakan merentas disiplin.</span></article><article><b>Objektif, tepat & telus</b><span>Markah dan bukti lebih jelas.</span></article><article><b>Holistik</b><span>Pengetahuan, kemahiran klinikal, sikap, kepimpinan dan profesionalisme.</span></article><article><b>Berwajaran</b><span>Empat komponen mempunyai wajaran tetap.</span></article><article><b>Berterusan</b><span>Penilaian berasaskan masa dalam setiap sesi.</span></article><article><b>Mesra pengguna</b><span>Boleh dicapai dan direkod secara digital.</span></article></div>
+      <div class="callout important"><strong>Peraturan penting</strong><p>Logik lulus/gagal Viva, MCQ atau MEQ akhir posting dimansuhkan. Tiada penilaian tambahan boleh dibuat tanpa kelulusan JKP Ibu Pejabat KKM.</p></div>
+    </section>
+
+    <section class="learning-section" id="sesi" data-index="6">
+      <div class="section-heading"><p class="kicker">06 · Assessment sessions</p><h2>Perjalanan sesi penilaian</h2><p>Setiap sesi mesti melengkapkan kehadiran dan mencapai markah yang diperlukan.</p></div>
+      <div class="session-track"><article class="original"><span>Sesi 1</span><strong>2 bulan</strong><small>Posting asal</small></article><article class="original"><span>Sesi 2</span><strong>2 bulan</strong><small>Posting asal</small></article><article class="extension"><span>Sesi 3</span><strong>2 bulan</strong><small>Pelanjutan</small></article><article class="extension"><span>Sesi 4</span><strong>2 bulan</strong><small>Pelanjutan</small></article><article class="escalation"><span>Sesi 5</span><strong>3 bulan</strong><small>Selepas makluman BPP</small></article><article class="escalation"><span>Sesi 6</span><strong>3 bulan</strong><small>Eskalasi lanjut</small></article></div>
+      <div class="callout review"><strong>Perlu semakan</strong><p>Pertukaran hospital selepas kegagalan Sesi 4 dinyatakan dalam slaid. Urutan hospital khusus bagi Sesi 5 dan 6 hendaklah disahkan dengan BPP/JKP.</p></div>
+    </section>
+
+    <section class="learning-section" id="komponen" data-index="7">
+      <div class="section-heading"><p class="kicker">07 · Components dashboard</p><h2>Empat komponen, satu gambaran kompetensi</h2><p>Pilih kad untuk melihat tujuan dan peringatan utama.</p></div>
+      <div class="component-tabs" role="tablist"><button class="active" data-component="case">A · Case Log</button><button data-component="cme">B · CME</button><button data-component="wba">C · WBA</button><button data-component="global">D · Global</button></div>
+      <article class="component-detail" id="component-detail"></article>
+    </section>
+
+    <section class="learning-section" id="wajaran" data-index="8">
+      <div class="section-heading"><p class="kicker">08 · Weightage explorer</p><h2>Bagaimana markah diagihkan?</h2><p>Tukar paparan antara sesi asal dan sesi pelanjutan.</p></div>
+      <div class="weight-controls"><button class="active" data-weight="original">Sesi 1 atau 2</button><button data-weight="extension">Sesi pelanjutan 3–6</button></div>
+      <div class="weight-explorer" id="weight-explorer"></div>
+      <div class="callout remember"><strong>Ingat</strong><p>Sesi 1 dan Sesi 2 masing-masing menyumbang 50%. Setiap sesi pelanjutan dinilai sebagai jumlah 100%.</p></div>
+    </section>
+
+    <section class="learning-section" id="lulus" data-index="9">
+      <div class="section-heading"><p class="kicker">09 · Criteria to pass</p><h2>Dua syarat mesti dipenuhi</h2></div>
+      <div class="pass-equation"><article><span>1</span><h3>Kehadiran lengkap</h3><p>Setiap sesi penilaian mesti lengkap, termasuk cuti mingguan, cuti umum dan cuti gantian.</p></article><i>+</i><article><span>2</span><h3>Markah sekurang-kurangnya 60%</h3><p>Dicapai bagi setiap sesi penilaian yang diperlukan.</p></article><i>=</i><article class="pass"><span>✓</span><h3>Lulus posting</h3><p>Bergerak ke posting baharu.</p></article></div>
+    </section>
+
+    <section class="learning-section" id="pelanjutan" data-index="10">
+      <div class="section-heading"><p class="kicker">10 · Extension categories</p><h2>Kenal pasti sebab pelanjutan</h2></div>
+      <div class="compare-grid">
+        <article class="compare-card noncomp"><span>Bukan kompetensi</span><h3>Kehadiran atau pentadbiran</h3><ul><li>Kehadiran belum lengkap</li><li>Cuti melebihi Cuti Latihan</li><li>Isu pentadbiran lain</li></ul></article>
+        <article class="compare-card comp"><span>Masalah kompetensi</span><h3>Markah tidak mencapai tahap</h3><ul><li>Markah kurang daripada 60%</li></ul></article>
+      </div>
+      <div class="callout policy"><strong>Cuti Latihan</strong><p>Kuota cuti yang diberi tanpa melanjutkan posting. Ia merangkumi semua jenis cuti bergaji atau tidak bergaji yang layak bagi penjawat awam, direkod atau tidak direkod. Kuota: <b>10 hari setiap posting</b>.</p></div>
+      <p class="caption">Isu bukan kompetensi perlu diselesaikan sebelum keputusan kompetensi dibuat. Penyelia dan pengurusan perlu memastikan kehadiran lengkap sebelum markah akhir.</p>
+    </section>
+
+    <section class="learning-section" id="aliran" data-index="11">
+      <div class="section-heading"><p class="kicker">11 · Pass/fail decision flow</p><h2>Ikuti aliran keputusan</h2><p>Pilih jawapan bagi setiap langkah untuk melihat laluan seterusnya.</p></div>
+      <div class="decision-builder">
+        <div id="decision-question"></div>
+        <div class="decision-actions" id="decision-actions"></div>
+        <div class="decision-history" id="decision-history"></div>
+        <button class="button secondary" id="decision-reset" type="button">Mulakan semula</button>
+      </div>
+      <div class="callout policy"><strong>Selepas Sesi 4</strong><p>Jika PPS masih gagal atas masalah kompetensi, hospital memaklumkan BPP untuk Sesi 5 di hospital lain.</p></div>
+    </section>
+
+    <section class="learning-section" id="panduan" data-index="12">
+      <div class="section-heading"><p class="kicker">12 · Detailed component guides</p><h2>Gunakan sebagai rujukan ketika bertugas</h2></div>
+      <details class="policy-card" open><summary><span>A</span>Case Log Entry</summary><div class="guide-body"><p>Menilai kemahiran prosedur klinikal melalui kes yang diperhati, dibantu atau dilakukan.</p><ul><li>Rekod nombor pendaftaran pesakit, diagnosis dan tarikh prosedur.</li><li>Disahkan oleh mana-mana Pegawai Perubatan atau pakar dalam jabatan.</li><li>Kes disahkan = 1 markah; ditolak = 0.</li><li>Markah maksimum tertakluk kepada had prosedur atau subkomponen.</li></ul></div></details>
+      <details class="policy-card"><summary><span>B</span>Continuing Medical Education (CME)</summary><div class="guide-body"><ul><li>Hanya CME peringkat jabatan dikira; CME hospital bukan jabatan tidak dikira.</li><li>Diadakan sekurang-kurangnya mingguan, 30–45 minit.</li><li>Kehadiran disahkan = 1 markah, maksimum 8 markah setiap sesi.</li><li>Satu pembentangan setiap sesi: 10–15 minit diikuti perbincangan/Q&amp;A.</li><li>Pembentangan dinilai penyelia pakar ditetapkan sahaja: organisasi, pengetahuan subjek, komunikasi dan kreativiti, skala 1–5.</li></ul></div></details>
+      <details class="policy-card"><summary><span>C1</span>DOPS</summary><div class="guide-body"><ul><li>Pemerhatian langsung prosedur dalam situasi klinikal sebenar.</li><li>Temu janji dengan penilai; prosedur dinilai sekali setiap sesi.</li><li>Dinilai penyelia pakar ditetapkan sahaja.</li><li>Setiap langkah memuaskan = 1; tidak diperakui = 0.</li></ul></div></details>
+      <details class="policy-card"><summary><span>C2</span>Mini-CEX</summary><div class="guide-body"><ul><li>Penilaian formal kemahiran klinikal dengan maklum balas, sekali setiap sesi.</li><li>10–15 minit untuk sejarah/pemeriksaan/diagnosis/pelan awal dan 10–15 minit Q&amp;A; jumlah tidak melebihi 30 minit.</li><li>Fokus: sejarah, diagnosis, pengurusan atau penerangan.</li><li>Domain: history taking, pemeriksaan fizikal, siasatan, pengurusan, dokumentasi dan komunikasi; skala 0–5.</li></ul></div></details>
+      <details class="policy-card"><summary><span>C3</span>Case-Based Discussion (CBD)</summary><div class="guide-body"><ul><li>Perbincangan retrospektif kes wad yang dimasukkan di bawah jagaan PPS, sekali setiap sesi.</li><li>Pembentangan 5–10 minit diikuti Q&amp;A/perbincangan; jumlah tidak melebihi 30 minit.</li><li>Domain: dokumentasi, penaakulan klinikal, keputusan/risiko, pemikiran kritikal, siasatan/rawatan dan profesionalisme/penjagaan keseluruhan; skala 0–5.</li></ul></div></details>
+    </section>
+
+    <section class="learning-section" id="global" data-index="13">
+      <div class="section-heading"><p class="kicker">13 · Global Assessment</p><h2>Adakah PPS berfungsi sebagai pengamal yang selamat?</h2><p>Penilaian holistik dibuat sepanjang latihan dalam jabatan, menggunakan skala 0–5.</p></div>
+      <div class="compare-grid"><article class="compare-card"><span>Domain 1</span><h3>Clinical Practice</h3><ul><li>Keselamatan pesakit</li><li>Komunikasi</li><li>Siasatan</li><li>Penilaian dan pengurusan pesakit</li><li>Preskripsi dan pemberian ubat</li><li>Rawatan kecemasan</li></ul></article><article class="compare-card alt"><span>Domain 2</span><h3>Professionalism & Leadership</h3><ul><li>Profesionalisme</li><li>Pengurusan diri</li><li>Pendidikan kendiri</li><li>Tanggungjawab klinikal</li><li>Kerja berpasukan</li><li>Pengurusan masa</li></ul></article></div>
+      <div class="assessor-strip"><article><strong>Penyelia pakar ditetapkan</strong></article><article><strong>Pegawai Perubatan jabatan sama</strong></article><article><strong>Jururawat atau Penolong Pegawai Perubatan jabatan sama</strong></article></div>
+      <div class="callout important"><strong>Komen penilai</strong><p>Komen amat penting terutama jika terdapat major concern seperti kesilapan preskripsi atau transfusi, dan turut digalakkan bagi prestasi cemerlang.</p></div>
+    </section>
+
+    <section class="learning-section" id="semak" data-index="14">
+      <div class="section-heading"><p class="kicker">14 · Knowledge check</p><h2>Semak kefahaman praktikal anda</h2></div>
+      <div class="final-check" id="final-check"></div>
+      <div class="finish-card"><p class="eyebrow">Quick reference</p><h2>Penilaian yang baik bermula sebelum akhir sesi.</h2><p>Lengkapkan kehadiran, rekod bukti secara berterusan, tempah sesi bersama penilai dan semak kemajuan markah.</p><a class="button" href="modules.html">Kembali ke semua modul</a></div>
+    </section>
+  </main>
+
+  <dialog id="glossary-dialog"><div class="dialog-head"><div><p class="kicker">Rujukan pantas</p><h2>Glosari penilaian</h2></div><button id="glossary-close" type="button">Tutup</button></div><label class="lookup-field"><span>Cari istilah</span><input id="glossary-search" type="search" placeholder="Contoh: MPIS, DOPS, Cuti Latihan"></label><div class="glossary-list" id="glossary-list"></div></dialog>
+  <footer><span>Modul pembelajaran bebas berdasarkan bahan pembentangan yang dibekalkan.</span><a href="modules.html">Semua modul</a></footer>
+  <script src="assessment-i18n.js"></script>
+  <script src="assessment.js"></script>
+</body>
+</html>
