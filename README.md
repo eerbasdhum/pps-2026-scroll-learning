@@ -3,6 +3,8 @@
 Laman pembelajaran statik berdasarkan slaid **Pengenalan kepada Program Pegawai
 Perubatan Siswazah 2026 (kemaskini Mac 2026)**.
 
+**Laman langsung:** https://eerbasdhum.github.io/pps-2026-scroll-learning/
+
 ## Seni bina maklumat
 
 Perjalanan pembelajaran disusun kepada empat fasa:
