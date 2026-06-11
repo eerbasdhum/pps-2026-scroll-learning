@@ -1,7 +1,9 @@
 # PPS 2026 Scroll Learning
 
-Laman pembelajaran statik berdasarkan slaid **Pengenalan kepada Program Pegawai
-Perubatan Siswazah 2026 (kemaskini Mac 2026)**.
+Laman pembelajaran statik PPS berdasarkan dua bahan pembentangan:
+
+1. **Pengenalan kepada Program Pegawai Perubatan Siswazah 2026 (kemaskini Mac 2026)**
+2. **Taklimat Format Penilaian Kompetensi PPS Yang Baru melalui penggunaan HRM Module dalam MPIS**
 
 **Laman langsung:** https://eerbasdhum.github.io/pps-2026-scroll-learning/
 
@@ -9,6 +11,10 @@ Laman ini ialah nota pembelajaran bebas dan tidak berafiliasi dengan atau mewaki
 KKM, Bahagian Perkembangan Perubatan atau MPM.
 
 ## Seni bina maklumat
+
+`modules.html` menyediakan pusat pemilihan modul. `index.html` mengekalkan modul
+pengenalan asal, manakala `assessment.html` menyediakan panduan penilaian kompetensi
+PPS baharu.
 
 Perjalanan pembelajaran disusun kepada empat fasa:
 
@@ -32,6 +38,10 @@ Navigasi sisi mengikuti 15 bahagian asal slaid. Setiap bahagian mempunyai ringka
 - penilaian akhir -> 20 soalan, pilihan jawapan dan jawapan sumber yang diekstrak
   daripada kuiz Fillout yang dipautkan pada slaid 78, dijalankan secara tempatan.
 
+Modul penilaian kompetensi menambah garis masa interaktif, perbandingan sistem lama
+dan baharu, peneroka wajaran, aliran keputusan lulus/pelanjutan, panduan komponen
+terperinci, glosari khusus dan knowledge check.
+
 ## Keputusan kandungan
 
 - Petikan panjang Akta Perubatan 1971 diringkaskan tanpa menggantikan teks undang-undang.
@@ -52,7 +62,8 @@ Navigasi sisi mengikuti 15 bahagian asal slaid. Setiap bahagian mempunyai ringka
 
 ## Menjalankan laman
 
-Buka `index.html` terus dalam pelayar. Tiada pemasangan atau backend diperlukan.
+Buka `modules.html` untuk memilih modul, atau buka `index.html` / `assessment.html`
+secara terus. Tiada pemasangan atau backend diperlukan.
 
 ## Penerbitan
 
