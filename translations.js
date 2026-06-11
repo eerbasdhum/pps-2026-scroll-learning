@@ -119,6 +119,8 @@ function translateStaticPage(lang) {
   document.body.classList.toggle("english",lang==="en");
   document.getElementById("translation-notice").hidden=lang!=="en";
   document.getElementById("language-toggle").textContent=lang==="en"?"BM":"EN";
+  document.getElementById("independent-label").textContent=lang==="en"?"Independent learning notes · Based on PPS 2026 presentation materials":"Nota pembelajaran bebas · Berdasarkan bahan pembentangan PPS 2026";
+  document.getElementById("independent-disclaimer").textContent=lang==="en"?"This site is not affiliated with or representative of KKM, the Medical Development Division or MPM. Content is summarised from slides updated in March 2026 for learning and revision. Refer to the latest official instructions when applying policy.":"Laman ini tidak berafiliasi dengan atau mewakili KKM, Bahagian Perkembangan Perubatan atau MPM. Kandungan diringkaskan daripada slaid kemaskini Mac 2026 untuk pembelajaran dan rujukan semula. Rujuk arahan rasmi terkini apabila melaksanakan dasar.";
   document.querySelector(".brand").setAttribute("aria-label",lang==="en"?"Back to top":"Kembali ke mula");
   document.getElementById("theme-toggle").setAttribute("aria-label",lang==="en"?"Switch colour theme":"Tukar mod warna");
   document.getElementById("menu-toggle").setAttribute("aria-label",lang==="en"?"Open navigation":"Buka navigasi");
