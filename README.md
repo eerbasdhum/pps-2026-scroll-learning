@@ -5,6 +5,9 @@ Perubatan Siswazah 2026 (kemaskini Mac 2026)**.
 
 **Laman langsung:** https://eerbasdhum.github.io/pps-2026-scroll-learning/
 
+Laman ini ialah nota pembelajaran bebas dan tidak berafiliasi dengan atau mewakili
+KKM, Bahagian Perkembangan Perubatan atau MPM.
+
 ## Seni bina maklumat
 
 Perjalanan pembelajaran disusun kepada empat fasa:
