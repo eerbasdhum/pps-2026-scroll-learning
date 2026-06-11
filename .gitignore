@@ -1,0 +1,19 @@
+# Local QA and temporary files
+*.png
+*.log
+*.tmp
+*.bak
+
+# Source decks and extracted content
+*.pdf
+pdf-extract.txt
+fillout-*.html
+fillout-*.json
+quiz-extracted.json
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.tools/
